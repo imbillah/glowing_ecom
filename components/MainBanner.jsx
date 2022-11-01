@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { urlFor } from "../config/sanityClient";
 import styles from "../styles/MainBanner.module.css";
 const MainBanner = ({ banner }) => {

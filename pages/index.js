@@ -1,13 +1,18 @@
+import FooterBanner from "../components/FooterBanner";
 import MainBanner from "../components/MainBanner";
 import Products from "../components/Products";
-import Footer from "../components/Footer";
+
 import { client } from "../config/sanityClient";
 export default function Home({ banner, products }) {
   return (
     <div className="">
       <MainBanner banner={banner && banner[0]} />
+      <div className="products_heading">
+        <h2>Best Selling Products</h2>
+        <p>We have amnay variations available</p>
+      </div>
       <Products products={products} />
-      <Footer footerBanner={banner && banner[0]} />
+      <FooterBanner footerBanner={banner && banner[0]} />
     </div>
   );
 }

@@ -13,10 +13,6 @@ const Products = ({ products }) => {
   } = styles;
   return (
     <Fragment>
-      <div className={products_heading}>
-        <h2>Best Selling Products</h2>
-        <p>We have amnay variations available</p>
-      </div>
       <div className={products_container}>
         {products.map((product) => (
           <div key={product._id}>

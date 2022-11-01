@@ -11,3 +11,16 @@ body,
 ::-webkit-scrollbar {
   width: 0px;
 }
+.products_heading {
+  text-align: center;
+  margin: 40px 0px;
+  color: #324d67;
+}
+.products_heading h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.products_heading p {
+  font-size: 16px;
+  font-weight: 200;
+}
